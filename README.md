@@ -1,0 +1,1 @@
+# Meterpreter-session-is-closing-exactly-after-30-Seconds.
