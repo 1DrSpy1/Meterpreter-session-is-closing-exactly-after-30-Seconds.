@@ -1,0 +1,19 @@
+Hi,
+
+While exploiting using PHP, my sessions are expiring exactly after 30 seconds. 
+
+I'm using php payload to exploit command injection vulnerability.
+
+I even made changes in php.ini to make the session go longer than 30 seconds but still it doesn't work.
+
+I'm getting this error "Meterpreter session is not valid and will be closed."
+
+Please help me resolve this issue. 
+
+Setup Details:
+
+Kali Linux: 5.6.0-kali1-amd64 (last updated on 2020-05-12)
+Metasploit: 5.0.89-dev
+Victim Machine: owaspbwa 2.6.32-25-generic-pae 
+Virtulization Product: VMWare Workstation 15
+
